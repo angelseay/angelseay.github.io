@@ -1,17 +1,19 @@
+/* Background pattern from Toptal Subtle Patterns */
+
 body {
     align-content: center;
     width: 50%;
     margin:0 auto;
     color: #46306D;
-    Font-Family: 'Sintony', Sans-Serif;
-    Font-Size: 14px;
+    Font-Family: 'Cabin', Sans-Serif;
+    Font-Size: 16px;
     background-image: url("confetti.png");
 }
 
 h1 {
+    padding-top: 25px;
     color: #CD1E7D;
-
-    Font-Family: 'Source Sans Pro', Sans-Serif;
+    Font-Family: 'Roboto Condensed', Sans-Serif;
     Font-Size: 48px;
     text-align: center;
 }
@@ -19,14 +21,13 @@ h1 {
 nav {
     color: #46306D;
 
-    Font-Family: 'Source Sans Pro', Sans-Serif;
+    Font-Family: 'Cabin', Sans-Serif;
     Font-Size: 18px;
     text-align: center;
 }
 
 li {
     color: #46306D;
-
     display: inline;
 }
 
@@ -36,6 +37,10 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+a:link {
+    color: #46306D;
 }
 
 /* visited link */
