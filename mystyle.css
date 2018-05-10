@@ -1,0 +1,49 @@
+body {
+    align-content: center;
+    width: 50%;
+    margin:0 auto;
+    color: #46306D;
+    Font-Family: 'Sintony', Sans-Serif;
+    Font-Size: 14px;
+    background-image: url("confetti.png");
+}
+
+h1 {
+    color: #CD1E7D;
+
+    Font-Family: 'Source Sans Pro', Sans-Serif;
+    Font-Size: 48px;
+    text-align: center;
+}
+
+nav {
+    color: #46306D;
+
+    Font-Family: 'Source Sans Pro', Sans-Serif;
+    Font-Size: 18px;
+    text-align: center;
+}
+
+li {
+    color: #46306D;
+
+    display: inline;
+}
+
+ul {
+    color: #46306D;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* visited link */
+a:visited {
+    color: #46306D;
+}
+
+/* mouse over link */
+a:hover {
+    color: #1E99B5;
+}
