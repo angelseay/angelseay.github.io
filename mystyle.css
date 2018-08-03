@@ -26,9 +26,14 @@ nav {
     text-align: center;
 }
 
-li {
+#nav_li {
     color: #46306D;
     display: inline;
+}
+
+li {
+    color: #46306D;
+    list-style-type: circle;
 }
 
 ul {
@@ -36,7 +41,8 @@ ul {
 
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10;
+   
 }
 
 a:link {
