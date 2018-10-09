@@ -1,60 +1,110 @@
 /* Background pattern from Toptal Subtle Patterns */
+/* color palette: https://www.color-hex.com/color-palette/66160 */
+
 
 body {
-    align-content: center;
-    width: 50%;
-    margin:0 auto;
-    color: #46306D;
-    Font-Family: 'Cabin', Sans-Serif;
+    color: #707070;
+    Font-Family: 'Open Sans', Sans-Serif;
     Font-Size: 16px;
-    background-image: url("confetti.png");
+
 }
 
-h1 {
-    padding-top: 25px;
-    color: #CD1E7D;
-    Font-Family: 'Roboto Condensed', Sans-Serif;
-    Font-Size: 48px;
-    text-align: center;
+.floatLeft {
+    float: left;
+     }
+.floatRight {float: right; }
+.container { overflow: hidden; }
+
+h3 {
+    text-align: center; overflow: hidden;
 }
 
-nav {
-    color: #46306D;
-
-    Font-Family: 'Cabin', Sans-Serif;
-    Font-Size: 18px;
-    text-align: center;
+h1 a,
+h1 a:link,
+h1 a:visited {
+    color: #ff7cb8;
 }
 
-#nav_li {
-    color: #46306D;
-    display: inline;
+h1 a:hover {
+    color: #daf1ff;
+    text-decoration: none;
 }
 
-li {
-    color: #46306D;
-    list-style-type: circle;
-}
 
-ul {
-    color: #46306D;
-
-    list-style-type: none;
-    margin: 0;
-    padding: 10;
-   
-}
-
-a:link {
-    color: #46306D;
-}
-
-/* visited link */
+a:link,
 a:visited {
-    color: #46306D;
+    color: #ff7cb8;
+    text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: #1E99B5;
+    color: #ff7cb8;
+    text-decoration: underline;
+
+}
+
+a:active {
+    color: #ff7cb8;
+    text-decoration: underline;
+
+}
+
+
+h1 {
+    padding-top: 25px;
+    color: #ff7cb8;
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 72px;
+    font-weight: bold;
+    text-align: center;
+}
+
+table {
+    display: inline-block;
+
+}
+
+
+#playlist {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#playlist td, #playlist th {
+    border: 1px solid #ddd;
+    padding: 5px;
+    color: #707070;
+
+}
+
+#playlist tr:nth-child(even){background-color: #f2f2f2;}
+#playlist tr:nth-child(odd){background-color: #ffffff;}
+
+
+#playlist tr:hover {background-color: #ddd;}
+
+#playlist th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #daf1ff ;
+}
+
+#playlist th:a, #playlist th:a:link, #playlist th:a:visited, {
+    color: #ff7cb8;
+
+    text-decoration: none;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #ff7cb8;
+    text-align: center;
+    font-size: 12px;
 }
