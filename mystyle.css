@@ -2,6 +2,9 @@
 /* color palette: https://www.color-hex.com/color-palette/66160 */
 
 
+
+
+
 body {
     color: #707070;
     Font-Family: 'Open Sans', Sans-Serif;
@@ -58,6 +61,7 @@ h1 {
     Font-Size: 72px;
     font-weight: bold;
     text-align: center;
+
 }
 
 table {
@@ -70,6 +74,7 @@ table {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
+
 }
 
 #playlist td, #playlist th {
