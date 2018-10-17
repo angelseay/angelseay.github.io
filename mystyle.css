@@ -2,7 +2,15 @@
 /* color palette: https://www.color-hex.com/color-palette/66160 */
 
 
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
 
+  .card {
+    display: inline-block;
+  }
+}
 
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
