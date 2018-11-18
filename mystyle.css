@@ -88,40 +88,15 @@ table {
 
 }
 
-
-#playlist {
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
+.social-links {
+    top: 0;
+    left: 0;
+    bottom: 0;
     width: 100%;
-
-}
-
-#playlist td, #playlist th {
-    border: 1px solid #ddd;
-    padding: 5px;
-    color: #707070;
-
-}
-
-#playlist tr:nth-child(even){background-color: #f2f2f2;}
-#playlist tr:nth-child(odd){background-color: #ffffff;}
-
-
-#playlist tr:hover {background-color: #ddd;}
-
-#playlist th {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: left;
-    background-color: #daf1ff ;
-}
-
-#playlist th:a, #playlist th:a:link, #playlist th:a:visited, {
     color: #ff7cb8;
-
-    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
 }
-
 
 .footer {
     left: 0;
@@ -129,5 +104,5 @@ table {
     width: 100%;
     color: #ff7cb8;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
 }
