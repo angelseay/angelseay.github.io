@@ -1,0 +1,129 @@
+/*---- NEEDS TO BE REORGANIZED ----*/
+
+/*---- Color palette ----*/
+/* Green #679595
+Dark Purple #596088
+Light Purple #7083A5
+Dark Pink #B5A0AF
+Light Pink #EFE9EF
+*/
+
+/*---- Header ----*/
+.nav-item {
+  color: #7083A5;
+}
+
+.nav-item a:hover {
+  color: #679595 !important;
+}
+
+p a {
+  font-weight:bold;
+  color: #596088;
+}
+
+p a:hover {
+  color: #679595;
+}
+
+#recent a {
+  color: #7083A5;
+
+}
+
+#recent a:hover {
+  color: #679595;
+}
+
+
+/*---- Headings ----*/
+h1, h2, h3, h4, h5 {
+  font-family: "Yeseva One";
+  color: #596088;
+}
+h1 {
+  width:100%;
+  font-size: 4em;
+  color: #679595;
+}
+
+h4 {
+  font-size: 1.3em;
+}
+
+
+h5 {
+  font-style: italic;
+  color: #7083A5;
+
+  font-size: 1em;
+}
+
+
+/*---- Project Descriptions ----*/
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: "Josefin Sans";
+  color: #7083A5;
+
+}
+
+
+
+
+
+/*---- Footer ----*/
+footer {
+  text-align:center;
+
+}
+
+
+
+/*---- portfolio items ----*/
+.col {
+  display: block;
+  border-radius: 10px;
+  padding: 60px 20px;
+  text-align: center;
+  width: 100%;
+  margin-right:30px;
+  margin-left:30px;
+  margin-bottom:30px;
+  color: #7083A5;
+
+}
+
+.projects {
+  background-color: #EFE9EF;
+
+}
+
+.projects:hover, .projects:hover h2,  .projects:hover h3, .projects:hover h4, .projects:hover h5, .projects:hover h6, .projects:hover p  {
+  background-color: #B5A0AF;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #EFE9EF;
+}
+
+
+.about {
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-right:30px;
+  margin-left:30px;
+  margin-bottom:30px;
+  text-align: justify;
+
+}
+
+/*---- about items ----*/
+#about {
+  background-color: #ffffff;
+}
+
+#about h2, #about p {
+  background-color: #ffffff;
+
+}

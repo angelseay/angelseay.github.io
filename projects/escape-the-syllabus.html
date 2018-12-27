@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Angel Seay</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Angel Seay">
+    <meta name="description" content="Index">
+    <meta name="keywords" content="angel seay, angel, seay, computer science, female, cs, undergraduate, media, people, computational media, ui, ux, user interface, user experience, animation, computer graphics, georgia tech">
+
+    <!-- // bootstrap and custom styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yeseva+One|Merriweather+Sans|Josefin+Sans"/>
+    <!-- // end styles -->
+</head>
+    <body>
+      <header>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light ">
+            <h1>angel seay</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../about.html">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../12.17.18.pdf">resume</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+      </header>
+<!-- END HEADER -->
+        <main>
+          <div>
+            <h2>Escape the Syllabus (CS 3311), <i>August 2018 - Present</i></h2>
+            <h3>Task</h3>
+            <p>
+              Our group, Team Skedaddle, was asked to create a mobile app for students and professors that included a syllabus and learning outcomes in the form of a game. Our client, Dr. Laquana Cooke, asked us to use Unity as our
+              development platform.
+            </p>
+            <h3>User Research</h3>
+            <p>
+              Before we began developing ideas, we consulted our users. After all, we were building a product for them and not ourselves. We used convenience sampling while conducting interviews and distributed a survey to students on Georgia Tech's
+              campus. My main tasks in this process were identifying the key issues, interviewing one of our potential users, and helping create the interview guide. The key issues we wanted to explore were: demand for product, student priorities, and language barriers. Here are our results:
+              <h4>International Students:</h4>
+              <ul>
+                  <li>Half of the international students did not have questions about the syllabus. The other half that did have questions either talked to the professor/TA directly, or emailed the professor/TA. None of the international students had issues with language barriers. </li>
+                  <li>About 90% felt the need to familiarize the syllabus, and experienced inconvenience or disadvantage of not knowing the syllabus. </li>
+                  <li>About 75% felt that grading policy was the most important part of the syllabus. 50% felt that office hours was the most important. About 25% felt that course material was the most important.</li>
+                  <li>About 50% had professors that utilized games in their class, and they felt that it was helpful to keep students engaged.</li>
+                  <li>About 50% think that they would play a game on the syllabus, because it would be more entertaining. The rest of them feel that it would be useless because reading the syllabus is more straightforward and less time-consuming.</li>
+              </ul>
+
+              <h4>Non-International Students:</h4>
+              <ul>
+                  <li>Students value grading criteria and a list of important dates.</li>
+                  <li>Games weren’t used that often in class, but when they were, they were entertaining. The games had more of a question and answer, informal style. The games were memorable and helped students understand material.</li>
+                  <li>Students would be interested in playing a mobile syllabus game if they had an incentive (i.e. extra credit). They would rather look at PDF since it saves time. However, they are willing to try the app at least once and see how engaging it is from there.</li>
+                  <li>Without an incentive, students were divided on whether the game was worth their while. </li>
+              </ul>
+
+            </p>
+            <h3>Ideation</h3>
+            <p>
+              First, we created <a target="_blank"
+              href="../project-src-files/escape-the-syllabus/user-stories.pdf">user stories and
+              acceptance criteria</a>. This helped us get an idea of how the
+              app would look and different interactions we wanted the user to have.
+            </p>
+
+            <h3>Lo-Fi Prototype</h3>
+            <!-- Quick Blurb of goals -->
+            <p>Our initial prototype consisted of several key screens: Start, Login/Register, Home, Select Level, and Question screen.</p>
+
+            <!-- all screens -->
+
+
+            <h3>Heuristic Evaluations</h3>
+            <!-- How it was conducted -->
+            <p>After completing our initial prototype, we conducted an internal heuristic evaluation. Additionally, three students from another group evaluate our prototype and report their findings.  The evaluators were asked to complete a series of tasks: register, login, view current stats, select an available level, and answer a trivia question. Then we evaluated the prototype according to <a target="_blank" href="https://www.nngroup.com/articles/ten-usability-heuristics/"> ten heuristics</a>.
+            </p>
+
+            <p>
+              We found that our initial prototype was simple and consistent. It had a minimalistic design where it wasn’t too cluttered and only contained relevant information. Our screens also followed a logical flow. Our initial prototype also wasn't confusing for first time users.
+            </p>
+            <p> On the other hand, we had failed to include reversible interactions. Both our login and registration pages were missing cancel buttons and our level select screen was missing a back button. Our users didn’t feel in control. We also didn’t include appropriate feedback for incorrect login/registration attempts. If a user entered in invalid characters or an invalid user/password combination for login, they were not notified. Also, on the question screen, our users didn’t know if they even got the correct answer.
+            </p>
+
+            <!-- Findings and Recommendations -->
+            <h4>Revised Screens</h4>
+            <h3>Development in Unity (Spring 2019)</h3>
+          </div>
+
+        </main>
+
+        <!-- // Footer & contact info -->
+        <footer>
+            <p>Made with ♡ by Angel Seay</p>
+        </footer>
+
+        <!-- // Scripts -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+      </body>
+
+</html>
