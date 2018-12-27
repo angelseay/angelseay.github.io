@@ -1,6 +1,6 @@
 $.ajax({
 type : 'POST',
-url : 'http://ws.audioscrobbler.com/2.0/',
+url : 'https://ws.audioscrobbler.com/2.0/',
 data : 'method=user.getrecenttracks&' + 'limit=10&'+'user=angelseay&'+
        'api_key=56252fd7b4b648f3fcea0292a8e6d90a&' +
        'format=json',
