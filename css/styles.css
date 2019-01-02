@@ -51,7 +51,6 @@ h4 {
   font-size: 1.3em;
 }
 
-
 h5 {
   font-style: italic;
   color: #7083A5;
@@ -60,28 +59,13 @@ h5 {
 }
 
 
-/*---- Project Descriptions ----*/
-body {
-  margin-left: 15%;
-  margin-right: 15%;
-  font-family: "Josefin Sans";
-  color: #7083A5;
-
-}
-
-
-
-
-
 /*---- Footer ----*/
 footer {
   text-align:center;
 
 }
 
-
-
-/*---- portfolio items ----*/
+/*---- portfolio blocks ----*/
 .col {
   display: block;
   border-radius: 10px;
@@ -92,20 +76,10 @@ footer {
   margin-left:30px;
   margin-bottom:30px;
   color: #7083A5;
-
 }
-
-
-
-#carouselExampleIndicators {
-  margin: auto;
-}
-
-
 
 .projects {
   background-color: #EFE9EF;
-
 }
 
 .projects:hover, .projects:hover h2,  .projects:hover h3, .projects:hover h4, .projects:hover h5, .projects:hover h6, .projects:hover p  {
@@ -115,23 +89,35 @@ footer {
   color: #EFE9EF;
 }
 
+/*---- project descriptions ----*/
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: "Josefin Sans";
+  color: #7083A5;
 
+}
+
+/* carousel images */
+#carouselExampleIndicators {
+  margin: auto;
+  width: 70%;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* about page */
 .about {
-  border-radius: 10px;
-  background-color: #ffffff;
+  padding-top: 0;
+  text-align: justify;
+}
+
+/* specific project pages */
+.writeup {
   margin-right:30px;
   margin-left:30px;
-  margin-bottom:30px;
-  text-align: justify;
-
-}
-
-/*---- about items ----*/
-#about {
-  background-color: #ffffff;
-}
-
-#about h2, #about p {
-  background-color: #ffffff;
-
 }
