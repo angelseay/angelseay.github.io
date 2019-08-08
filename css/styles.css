@@ -9,8 +9,13 @@ Light Pink #EFE9EF
 */
 
 /*---- Header ----*/
-.nav-item {
-  color: #7083A5;
+.nav-item a {
+  color: #707070 !important;
+}
+
+::selection {
+  background: #fea49f; /* WebKit/Blink Browsers */
+  color: white;
 }
 
 .nav-item a:hover {
@@ -19,7 +24,7 @@ Light Pink #EFE9EF
 
 p a {
   font-weight:bold;
-  color: #596088;
+  color: #679595;
 }
 
 p a:hover {
@@ -27,7 +32,7 @@ p a:hover {
 }
 
 #recent a {
-  color: #7083A5;
+  color: #707070;
 
 }
 
@@ -37,14 +42,22 @@ p a:hover {
 
 
 /*---- Headings ----*/
-h1, h2, h3, h4, h5 {
-  font-family: "Yeseva One";
-  color: #596088;
+h2, h3, h4, h5 {
+  /* font-family: "Satisfy"; */
+
+  color: #707070;
 }
 h1 {
   width:100%;
   font-size: 4em;
   color: #679595;
+  font-family: "Josefin Sans";
+
+}
+
+h2, h3 {
+  font-family: "Josefin Sans";
+
 }
 
 h4 {
@@ -53,7 +66,6 @@ h4 {
 
 h5 {
   font-style: italic;
-  color: #7083A5;
 
   font-size: 1em;
 }
@@ -68,33 +80,58 @@ footer {
 /*---- portfolio blocks ----*/
 .col {
   display: block;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 60px 20px;
   text-align: center;
-  width: 100%;
+  /* width: 100%; */
   margin-right:30px;
   margin-left:30px;
   margin-bottom:30px;
-  color: #7083A5;
+  margin-top:30px;
+  color: #707070;
+}
+
+.col h2{
+  margin: 0;
+  color: #fbaf08;
 }
 
 .projects {
-  background-color: #EFE9EF;
+  /* background-color: #00a0a0; */
+  border-width: 2px;
+  border: solid #00a0a0;
+}
+
+.projects-section {
+  font-family: "Josefin Sans";
+
+  color: #fbaf08;
+  font-size:2em;
+}
+
+.project-page-section {
+  font-family: "Josefin Sans";
+
+  color: #fbaf08;
+  font-size:2em;
 }
 
 .projects:hover, .projects:hover h2,  .projects:hover h3, .projects:hover h4, .projects:hover h5, .projects:hover h6, .projects:hover p  {
-  background-color: #B5A0AF;
-  border-radius: 10px;
+  /* background-color: #B5A0AF; */
+  border-radius: 20px;
   text-decoration: none;
-  color: #EFE9EF;
+  color: white;
+  background-color: #00a0a0;
+
+  /* color: #EFE9EF; */
 }
 
 /*---- project descriptions ----*/
 body {
   margin-left: 15%;
   margin-right: 15%;
-  font-family: "Josefin Sans";
-  color: #7083A5;
+  font-family: "Open Sans";
+  color: #707070;
 
 }
 
