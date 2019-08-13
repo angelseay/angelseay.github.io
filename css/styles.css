@@ -159,3 +159,8 @@ iframe {
   border-width:2px; */
   border-radius: 20px;
 }
+
+ul, ol {
+  text-align: left;
+  padding: 0;
+}
