@@ -1,166 +1,172 @@
-/*---- NEEDS TO BE REORGANIZED ----*/
-
-/*---- Color palette ----*/
-/* Green #679595
-Dark Purple #596088
-Light Purple #7083A5
-Dark Pink #B5A0AF
-Light Pink #EFE9EF
-*/
-
-/*---- Header ----*/
-.nav-item a {
-  color: #707070 !important;
+html {
 }
 
-::selection {
-  background: #fea49f; /* WebKit/Blink Browsers */
-  color: white;
-}
-
-.nav-item a:hover {
-  color: #679595 !important;
-}
-
-p a {
-  font-weight:bold;
-  color: #679595;
-}
-
-p a:hover {
-  color: #679595;
-}
-
-#recent a {
-  color: #707070;
+.container {
+  padding-right: 50px;
+  padding-left: 50px;
 
 }
 
-#recent a:hover {
-  color: #679595;
-}
 
 
-/*---- Headings ----*/
-h2, h3, h4, h5 {
-  /* font-family: "Satisfy"; */
-
-  color: #707070;
-}
-h1 {
-  width:100%;
-  font-size: 4em;
-  color: #679595;
-  font-family: "Josefin Sans";
-
-}
-
-h2, h3 {
-  font-family: "Josefin Sans";
-
-}
-
-h4 {
-  font-size: 1.3em;
-}
-
-h5 {
-  font-style: italic;
-
-  font-size: 1em;
-}
-
-
-/*---- Footer ----*/
-footer {
-  text-align:center;
-
-}
-
-/*---- portfolio blocks ----*/
-.col {
-  display: block;
-  border-radius: 20px;
-  padding: 60px 20px;
-  text-align: center;
-  /* width: 100%; */
-  margin-right:30px;
-  margin-left:30px;
-  margin-bottom:30px;
-  margin-top:30px;
-  color: #707070;
-}
-
-.col h2{
-  margin: 0;
-  color: #fbaf08;
-}
-
-.projects {
-  /* background-color: #00a0a0; */
-  border-width: 2px;
-  border: solid #00a0a0;
-}
-
-.projects-section {
-  font-family: "Josefin Sans";
-
-  color: #fbaf08;
-  font-size:2em;
-}
-
-.project-page-section {
-  font-family: "Josefin Sans";
-
-  color: #fbaf08;
-  font-size:2em;
-}
-
-.projects:hover, .projects:hover h2,  .projects:hover h3, .projects:hover h4, .projects:hover h5, .projects:hover h6, .projects:hover p  {
-  /* background-color: #B5A0AF; */
-  border-radius: 20px;
+a {
   text-decoration: none;
-  color: white;
-  background-color: #00a0a0;
-
-  /* color: #EFE9EF; */
+  /* display: block; */
+  /* color: #333; */
+  color: #26694d;
 }
 
-/*---- project descriptions ----*/
+#navbarNav .navbar-nav li a{
+  color: black;
+  }
+
+  #navbarNav .navbar-nav li a:hover{
+    color: #264a3b;
+    }
+
+
+
+
+a:hover {
+  color:#264a3b;
+}
+
+/* Space out content a bit */
 body {
-  margin-left: 15%;
-  margin-right: 15%;
-  font-family: "Open Sans";
-  color: #707070;
-
+  font-family: 'Montserrat';
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
-/* carousel images */
-#carouselExampleIndicators {
-  margin: auto;
-  width: 70%;
-}
-
-/* about page */
-.about {
-  padding-top: 0;
-  text-align: justify;
-}
-
-/* specific project pages */
-.writeup {
-  margin-right:30px;
-  margin-left:30px;
-}
-
-
-iframe {
-  /* border: solid #707070;
-  border-width:2px; */
-  border-radius: 20px;
+h1, h2, h3, h4, h5 {
+  font-family: 'Lato';
 }
 
 ul, ol {
-  text-align: left;
+  list-style-position: inside;
+}
+
+
+
+
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  body {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+}
+
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 50px;
+}
+* {
+  margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+h2 {
+  color: #333;
+  padding: 10px 0;
+}
+
+.filter {
+  margin: 30px 0 10px;
+  border-radius: 10px;
+
+}
+
+.filter a {
+  display: inline-block;
+  padding: 10px;
+  /* border: 2px solid #333; */
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-right:0;
+  color: black;
+
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+
+}
+
+.boxes a {
+  width: 23%;
+  /* border: 2px solid #333; */
+  margin: 0 1% 20px 0;
+  line-height: 60px;
+  border-radius: 10px;
+  text-align: center;
+color: black;
+}
+
+
+
+.all {
+  background: #fcf3e8;
+}
+
+.ux {
+  background: #f1e8fc;
+}
+
+.id {
+  background: #fce8f9;
+}
+
+.ui {
+  background: #e8fcf5;
+}
+
+.cs {
+  background: #e8f3fc;
+}
+
+.filter a.active:before {
+  content: '~ ';
+  /* position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  width: 0;
+  height: 0; */
+  /* border-style: solid; */
+  /* border-width: 15px 15px 0 0; */
+  /* border-color: #333 transparent transparent transparent; */
+  /* border-radius: 10px 0px -0px .5px; */
+
+
+}
+
+.is-animated {
+  animation: .6s zoom-in;
+}
+
+@keyframes zoom-in {
+  0% {
+   transform: scale(.1);
+  }
+  100% {
+    transform: none;
+  }
 }
